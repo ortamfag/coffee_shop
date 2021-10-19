@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #14110E;
+  color: #fff;
+  width: 100%; }
+
+.nav {
+  background-color: #1C1814;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .nav__item {
+    font-size: 1.125em;
+    padding: 2% 2% 2% 2%; }
+  .nav__item_logo {
+    margin: 0% 9% 0% 9%; }
+  .nav__item_start {
+    margin-left: 15%; }
+  .nav__item_end {
+    margin-right: 13%; }
+  .nav__item_icon {
+    padding: 2% 0.05% 2% 2%; }
+
+/*# sourceMappingURL=style.css.map */
