@@ -1,12 +1,12 @@
-$font-item: 'Inter', sans-serif
-$font-text: 'Urbanist', sans-serif
-$font-title: 'Righteous', cursive
+$font-item: 'Inter', sans-serif !global
+$font-text: 'Urbanist', sans-serif !global
+$font-title: 'Righteous', cursive !global
 
-$bg-color-main:#14110E
-$bg-color-parts: #1C1814
+$bg-color-main:#14110E !global
+$bg-color-parts: #1C1814 !global
 
-$color-main: #fff
-$color-adds: #C99E71
+$color-main: #fff !global
+$color-adds: #C99E71 !global
 
 * 
     margin: 0
@@ -18,24 +18,11 @@ body
     color: $color-main
     width: 100%
 
-.nav
-    background-color: $bg-color-parts
-    display: flex
-    flex-direction: row
-    align-items: center
 
-    &__item
-        font-size: 1.1250em
-        padding: 2% 2% 2% 2%
-    
-    &__item_logo
-        margin: 0% 9% 0% 9%
 
-    &__item_start
-        margin-left: 15%
-    &__item_end
-        margin-right: 13%
+@import components/_nav
+@import components/_header
+@import components/_main
+@import components/_footer
 
-    &__item_icon
-        padding: 2% 0.05% 2% 2%
 
