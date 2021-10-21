@@ -6,7 +6,11 @@
 
     &__item
         font-size: 1.1250em
-        padding: 2% 2% 2% 2%
+        margin: 2% 2% 2% 2%
+
+        &:hover
+            color: $color-adds
+            transition: 0.5s
     
     &__item_logo
         margin: 0% 9% 0% 9%
@@ -17,4 +21,13 @@
         margin-right: 13%
 
     &__item_icon
-        padding: 2% 0.05% 2% 2%
+        margin: 2% 0.05% 2% 2%
+
+.nav__item_active
+    @extend .nav__item
+    color: $color-adds
+
+    &:hover
+        color: $color-main
+        transition: 0.5s
+
