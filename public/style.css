@@ -92,4 +92,22 @@ a {
       color: #C99E71;
       transition: 0.5s; }
 
+.queue {
+  display: flex;
+  flex-direction: row;
+  padding-top: 8.75em;
+  margin: 0 23em 0 23em; }
+  .queue__item {
+    flex-direction: column;
+    margin-right: 2.25em; }
+  .queue__title {
+    display: flex;
+    font-family: "Righteous", cursive;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 1.5em; }
+    .queue__title_number {
+      color: #C99E71;
+      margin-right: 0.75em; }
+
 /*# sourceMappingURL=style.css.map */
